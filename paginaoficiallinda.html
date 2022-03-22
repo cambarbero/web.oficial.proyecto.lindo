@@ -8,11 +8,62 @@
 </head>
 <body>
     <h1>La web de Camilo</h1>
+    <!--lista de punteo, esta puede tener propiedades que las 
+    cambias con type-->
+
+    <!-- propiedades para type para UL: 
+        "square" hace que el punteo sea con un cuadradito, 
+        "none" hace que sea sin nada, "disc" hace el punteo con
+        circulo relleno blanco, y "circle" es el circulo vacio-->
+
+    <ul type="disc">Cosas que me gustan
+        <li>dormir</li>
+        <li>comer</li>
+        <li>tomar agua</li>
+    </ul>
+
+    <!-- propiedades para type para OL: 
+        "cualquier letra" te permite que el punteo sea con cualquier
+        cosa, si no pones nada en type, aparece vacio ej type="1" te
+        va numerando desde abajo
+        
+        si pones "type=" y "start=" te aparece como punteo asi abajo
+        type="A" start="5", va a hacer punteo desde la letra E en 
+        adelante
+
+        si pones "type=" "start=" reversed, el ultimo punto empieza letra
+        ascendente osea "type=A" "start=5" reversed, queda como E D C.
+
+    -->
+
+    <ol type="A" start="5" reversed> hechos importantes
+        <li> 14 de ferbero: mi cumple</li>
+        <li> 2020: egresé del colegio</li>
+        <li>2025: recibo de la facultad</li>
+
+    </ol>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem 
     sint ea laboriosam dolor eaque facere a labore nam obcaecati ex at nisi itaque 
     beatae perspiciatis porro aliquid, vitae enim cupiditate?</p>
+         
+    <!--creas una tabla con <table> y la cerras con </table> -->
+    
+    <table>
+            <!--fila de la tabla lo haces con TD
+            cerras y abris cada fila con <tr></tr> -->
+
+        <tr> </tr><th>Nombre</th> <th>Apellido</th> <th>Edad</th> </tr>
+            
+        <tr> <td>Camilo</td> <td>Barbero</td> <td>19</td> </tr>
+        <tr> <td>Caro</td> <td>Lasalvia</td> <td>19</td> </tr>
+
+        <!-- TD= table data // TH= table header-->
+        <!-- el TH a diferencia del TD, te lo pone en negrita-->
+
+    </table>
+
     <img src="./images/gato con botas.jpeg" alt="">
 
-    
 </body>
 </html>
