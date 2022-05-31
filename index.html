@@ -4,72 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Gato con Botas │ Wiki</title>
+    <title> Shrek Wiki</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles.css">
+
+        <header>
+
+            <div id="caja-encabezado">
+                <h1 id="titulo">Shrek Wiki</h1>
+                <h8 id="subtitulo">Toda la información de la saga de peliculas Shrek</h8>
+            </div>
+            
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                <img src="./images/logoshrek.jpeg" id="logo-header" alt="">
+                <!-- asi pongo el icono de la pagina -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Inicio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Personajes </a>
+                    </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+        </header>
+
 </head>
 <body>
-    <h1>El Gato con Botas</h1>
-    <!--lista de punteo, esta puede tener propiedades que las 
-    cambias con type-->
 
-    <p>Es un gato que lucha como un mosquetero, aunque lo que más se caracteriza 
-        de él son sus botas, que es lo que le dan nombre. Nació en España. 
-        Poniendo una cara triste puede conseguir todo lo que quiere, haciendo 
-        que los demás le vean como un "minino indefenso".</p>
+    <div class="container">
+        <div clas="row">
+            <div id="columna-izq" class="col-10">
+                <div id="caja-A1">
 
-    <!-- propiedades para type para UL: 
-        "square" hace que el punteo sea con un cuadradito, 
-        "none" hace que sea sin nada, "disc" hace el punteo con
-        circulo relleno blanco, y "circle" es el circulo vacio-->
+                </div>
+                <div id="caja-A2">
 
-    <ul type="disc">Ocupación:
-        <li>Asesino a sueldo</li>
-        <li>Hacer cara tierna</li>
-        <li>Protector de San Lorenzo</li>
-    </ul>
+                </div>
+            </div>
+            <div id="columna-der" class="col-2">
+                <div id="caja-B1">
 
-    <!-- propiedades para type para OL: 
-        "cualquier letra" te permite que el punteo sea con cualquier
-        cosa, si no pones nada en type, aparece vacio ej type="1" te
-        va numerando desde abajo
-        
-        si pones "type=" y "start=" te aparece como punteo asi abajo
-        type="A" start="5", va a hacer punteo desde la letra E en 
-        adelante
-
-        si pones "type=" "start=" reversed, el ultimo punto empieza letra
-        ascendente osea "type=A" "start=5" reversed, queda como E D C.
-
-    -->
-
-    <ol type="A" start="1" > Apariciones
-        <li> Shrek 2</li>
-        <li> Shrek Tercero</li>
-        <li> Shrek Para Siempre</li>
-
-    </ol>
-         
-    Familia:
-    <!--creas una tabla con <table> y la cerras con </table> -->
-    
-    <table>
-            <!--fila de la tabla lo haces con TD
-            cerras y abris cada fila con <tr></tr> -->
-
-        <tr> </tr><th>Nombre</th> <th>Apellido</th> <th>Relación</th></tr>
-            
-        <tr> <td>Humpty</td> <td>Dumpty</td> <td>Hermano</td> </tr>
-        <tr> <td>Imelda</td> <td></td> <td>Madre humana adoptiva</td> </tr>
-        <tr> <td>Kitty</td> <td>Patitas suaves</td> <td>Novia</td></tr>
-        <tr> <td>Los Tres Diablos</td> <td></td> <td>Hijos adoptivos</td> </tr>
-
-        <!-- TD= table data // TH= table header-->
-        <!-- el TH a diferencia del TD, te lo pone en negrita-->
-
-    </table>
-
-    <img src="./images/gato con botas.jpeg" alt="" width="50%">
-
-    <a href="./contacto.html"> Mandarle un mensaje a camilo </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

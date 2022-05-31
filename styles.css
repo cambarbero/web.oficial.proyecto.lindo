@@ -1,0 +1,66 @@
+#logo-header{
+    width:50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body{
+    background-color: #F7F7E6;
+}
+
+#titulo{
+    position:relative;
+}
+
+#subtitulo{
+    position:relative;
+}
+
+#caja-encabezado{
+    width: auto;
+    border: none;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#navbar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#caja-A1{
+    width: none;
+    border: none;
+    margin: 10px;
+    justify-content: left;
+    padding: 100px;
+    background-color: white;
+}
+
+#caja-A2{
+    width: none;
+    border: none;
+    margin: 10px;
+    justify-content: left;
+    padding: 100px;
+    background-color: white;
+}
+
+#caja-B1{
+    width: 10px;
+    border: 10px;
+    margin: 10px;
+    justify-content: right;
+    padding: 100px;
+    background-color: white;
+}
+
+.container{
+    margin-left: 0px;
+    padding:0px ;
+    margin: 0px;
+    margin-right:0px;
+}
