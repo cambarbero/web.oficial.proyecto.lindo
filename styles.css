@@ -9,6 +9,7 @@ body{
     background-color: #F7F7E6;
 }
 
+
 #titulo{
     position:relative;
 }
@@ -32,8 +33,6 @@ body{
 }
 
 #caja-A1{
-    width: none;
-    border: none;
     margin: 10px;
     justify-content: left;
     padding: 50px;
@@ -72,32 +71,6 @@ body{
     padding:15px;
     margin:15px;
 }
-#columnapelis1{
-    width: 10px;
-    border: 10px;
-    margin: 10px;
-    justify-content: left;
-    padding: 100px;
-    background-color: black;
-}
-
-#columnapelis2{
-    width: 10px;
-    border: 10px;
-    margin: 10px;
-    justify-content: left;
-    padding: 100px;
-    background-color: black;
-}
-
-#columnapelis3{
-    width: 10px;
-    border: 10px;
-    margin: 10px;
-    justify-content: left;
-    padding: 100px;
-    background-color: black;
-}
 
 #titulo2{
     width: 5px;
@@ -106,4 +79,34 @@ body{
     justify-content: left;
     padding: 50px;
     background-color: black;
+}
+
+#tablaPelis, th, td{
+
+    font-size: 20px;
+    margin-top: 75px;
+    border-right: 50px solid white;
+    border-bottom: 10px solid white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.tabla a{
+    text-decoration: none;
+    color: black;
+}
+
+.tabla a:hover{
+    text-decoration: underline;
+}
+
+#peliculas{
+    display: table-caption;
+    text-align: left;
+}
+
+.columna-der{
+width: 30%;
 }
